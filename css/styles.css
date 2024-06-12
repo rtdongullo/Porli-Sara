@@ -3,35 +3,90 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 10px 50px;
-    width: 90vw;
     font-size: 10pt;
     align-content: center;
 }
 
- #nav-links {
+#nav-links {
     display: flex;
     column-gap: 20px;
-} 
+    text-decoration: none;
+}
 
 #nav-logo {
     width: 100px;
 }
 
-#Porli-Sara-hero{
+#Porli-Sara-hero {
     background-image: url(../assets/images/porli-sara-hero.jpg);
     width: 100vw;
     height: 150vh;
     background-size: 100% 100%;
 }
 
-#new-arrivals{
+#new-arrivals {
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
     height: 600px;
+    padding-block: 100px;
+}
+
+#slotone {
+    border-radius: 20px;
+    transition: transform 0.5s;
+}
+
+/* #slotone:hover {
+    transform: scale(1.1);
+} */
+
+#slot2 {
+    border-radius: 20px;
+}
+
+#slot3 {
+    border-radius: 20px;
+}
+
+ #just-arrived{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: crimson;
+    font-size: 20pt;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+} 
+
+#limited-edition{
+    height: 600px;
+    background-color: #0F0F0F;
+}
+
+#lim-edi{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: crimson;
+    font-size: 20pt;
+}
+
+#lim-edi-one{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    column-gap: 0px;
+    column-gap: 80pt;
+    justify-content: center;
+
 }
-#arrivals-sub-header{
-    
+
+#uniformed-man{
+    width: 400px;
 }
+
+#uniformed-man-text{
+    color: antiquewhite;
+    padding: 150px;
+}
+
