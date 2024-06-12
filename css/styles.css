@@ -23,15 +23,11 @@
     height: 150vh;
     background-size: 100% 100%;
 }
-
 #new-arrivals{
-    height: 600px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    column-gap: 0px;
-}
-#arrivals-sub-header{
-    
+  flex-direction: row;
+  column-gap: 0px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
 }
