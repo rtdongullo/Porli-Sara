@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden;
+}
+
 #navigation-bar {
     display: flex;
     flex-direction: row;
@@ -22,20 +26,49 @@
     width: 100px;
 }
 
+#title{
+    transform: translateX(-350px);
+}
+
 #Porli-Sara-hero {
     background-image: url(../assets/images/hero-hero.jpg);
     width: 100vw;
     height: 100vh;
     background-size: 100% 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    /* transform: translateY(-100px); */
 }
 
-#hero-watch {
+/* #hero-watch {
     width: 400px;
     padding-left: 850px;
     padding-top: 50px;
+} */
+#hero-watch{
+    animation: heartbeat 1s infinite 
+    alternate;
 }
-/* 
+
+
 #hero-text{
+    color: goldenrod;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    transform: translateY(200px);
+
+}
+/* #hero-text{
+    display: flex;
+    flex-direction: column;
+    color: goldenrod;
+    font-size: 20px;
+    text-align: left;
+    justify-content: center;
+}   */
+
+/* header{
     display: flex;
     flex-direction: column;
     color: goldenrod;
@@ -43,15 +76,6 @@
     text-align: left;
     justify-content: center;
 } */
-
-header{
-    display: flex;
-    flex-direction: column;
-    color: goldenrod;
-    font-size: 100px;
-    text-align: left;
-    justify-content: center;
-}
 
 #new-arrivals {
     display: flex;
@@ -93,7 +117,7 @@ header{
     display: flex;
     flex-direction: column;
     height: 1500px;
-    background-color: #0F0F0F;
+    background-color: #1f1d1d;
 }
 
 #lim-edi{
@@ -109,7 +133,7 @@ header{
     flex-direction: row;
     column-gap: 80pt;
     justify-content: center;
-
+    border: 10px;
 }
 
 #one{
@@ -125,17 +149,14 @@ header{
 #lim-edi-two{
     display: flex;
     flex-direction: row;
-    column-gap: 80pt;
     padding-left: 850px;
 }
 
 #two{
     width: 400px;
-    padding
 }
 
 #img-two-text{
-    color: antiquewhite;
-    padding: 
+    padding-right: 10px;
 }
 
