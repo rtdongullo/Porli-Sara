@@ -3,31 +3,139 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 10px 50px;
-    width: 90vw;
     font-size: 10pt;
     align-content: center;
 }
 
- #nav-links {
+#nav-links {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
     column-gap: 20px;
-} 
+}
+
+#nav-links a {
+    text-decoration: none;
+}
 
 #nav-logo {
     width: 100px;
 }
 
-#Porli-Sara-hero{
-    background-image: url(../assets/images/porli-sara-hero.jpg);
+#Porli-Sara-hero {
+    background-image: url(../assets/images/hero-hero.jpg);
     width: 100vw;
-    height: 150vh;
+    height: 100vh;
     background-size: 100% 100%;
 }
-#new-arrivals{
-    display: flex;
-  flex-direction: row;
-  column-gap: 0px;
-  justify-content: space-between;
-  align-items: center;
-  border-radius: 10px;
+
+#hero-watch {
+    width: 400px;
+    padding-left: 850px;
+    padding-top: 50px;
 }
+/* 
+#hero-text{
+    display: flex;
+    flex-direction: column;
+    color: goldenrod;
+    font-size: 100px;
+    text-align: left;
+    justify-content: center;
+} */
+
+header{
+    display: flex;
+    flex-direction: column;
+    color: goldenrod;
+    font-size: 100px;
+    text-align: left;
+    justify-content: center;
+}
+
+#new-arrivals {
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+    height: 600px;
+    padding-block: 100px;
+}
+
+#slotone {
+    border-radius: 20px;
+    transition: transform 0.5s;
+}
+
+/* #slotone:hover {
+    transform: scale(1.1);
+} */
+
+#slot2 {
+    border-radius: 20px;
+}
+
+#slot3 {
+    border-radius: 20px;
+}
+
+ #just-arrived{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: crimson;
+    font-size: 20pt;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+} 
+
+#limited-edition{
+    display: flex;
+    flex-direction: column;
+    height: 1500px;
+    background-color: #0F0F0F;
+}
+
+#lim-edi{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: crimson;
+    font-size: 20pt;
+}
+
+#lim-edi-one{
+    display: flex;
+    flex-direction: row;
+    column-gap: 80pt;
+    justify-content: center;
+
+}
+
+#one{
+    width: 400px;
+}
+
+#img-one-text{
+    color: antiquewhite;
+    padding: 150px;
+    font-size: 20px;
+}
+
+#lim-edi-two{
+    display: flex;
+    flex-direction: row;
+    column-gap: 80pt;
+    padding-left: 850px;
+}
+
+#two{
+    width: 400px;
+    padding
+}
+
+#img-two-text{
+    color: antiquewhite;
+    padding: 
+}
+
