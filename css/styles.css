@@ -1,30 +1,71 @@
+body{
+    overflow-x: hidden;
+}
+
 #navigation-bar {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 10px 50px;
-    font-size: 10pt;
-    align-content: center;
+    background-color: rgb(13, 2, 22);
+    width: 100%;
+    height: 60px;
 }
 #nav-links{
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    column-gap: 20px;
 }
 
 #nav-links a{
-    /* display: flex; */
+    display: flex;
     text-decoration: none;
+    color: antiquewhite;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Zen Dots';
 }
 
 #nav-logo {
-    width: 100px;
+    width: 200px;
+}
+
+#title{
+    transform: translateX(-350px);
 }
 
 #Porli-Sara-hero {
-    background-image: url(../assets/images/porli-sara-hero.jpg);
+    background-image: url(../assets/images/hero-hero.jpg);
     width: 100vw;
-    height: 150vh;
+    height: 100vh;
     background-size: 100% 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    /* transform: translateY(-100px); */
+}
+
+#hero-watch {
+    width: 500px;
+    height: min-content;
+    align-items: center;
+    /* padding-top: 50px; */
+}
+
+#hero-watch{
+    animation: heartbeat 1s infinite 
+    alternate;
+}
+
+
+#hero-text{
+    color: goldenrod;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    transform: translateY(200px);
+
 }
 
 #new-arrivals {
@@ -33,6 +74,14 @@
     column-gap: 15px;
     height: 600px;
     padding-block: 100px;
+}
+
+#arrival-images{
+
+}
+
+#swiper{
+    height: 600px;
 }
 
 #slotone {
@@ -64,8 +113,10 @@
 } 
 
 #limited-edition{
-    height: 600px;
-    background-color: #0F0F0F;
+    display: flex;
+    flex-direction: column;
+    height: 1500px;
+    background-color: #1f1d1d;
 }
 
 #lim-edi{
@@ -81,15 +132,30 @@
     flex-direction: row;
     column-gap: 80pt;
     justify-content: center;
-
+    border: 10px;
 }
 
-#uniformed-man{
+#one{
     width: 400px;
 }
 
-#uniformed-man-text{
+#img-one-text{
     color: antiquewhite;
     padding: 150px;
+    font-size: 20px;
+}
+
+#lim-edi-two{
+    display: flex;
+    flex-direction: row;
+    padding-left: 850px;
+}
+
+#two{
+    width: 400px;
+}
+
+#img-two-text{
+    padding-right: 10px;
 }
 
