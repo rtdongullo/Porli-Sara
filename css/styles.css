@@ -55,7 +55,7 @@ body {
 }
 
 .hero-text {
-    color: antiquewhite;
+    color: rgb(255, 255, 255);
     font-size: 100px;
     padding-top: 200px;
     padding-left: 30px;
@@ -89,7 +89,7 @@ body {
 #shop-section{
     display: flex;
     flex-direction: column;
-    height: 600px;
+    height: 700px;
 }
 
 #bon-arrive {
@@ -146,4 +146,24 @@ body {
 #limited-edition{
     height: 1500px;
     background-color: #091418;
+}
+
+.arrival-details {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.p-main-text {
+    font-size: 20px;
+    font-family: 'Zen Dots';
+    text-align: center;
+}
+
+ .p-text{
+    font-size: 15px;
+    color: #EE3E38;
+    text-align: center;
+    font-family: 'Zen Dots';
 }
