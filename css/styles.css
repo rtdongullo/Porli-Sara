@@ -1,5 +1,6 @@
-body{
+body {
     overflow-x: hidden;
+
 }
 
 #navigation-bar {
@@ -7,155 +8,142 @@ body{
     flex-direction: row;
     justify-content: space-between;
     padding: 10px 50px;
-    background-color: rgb(13, 2, 22);
+    background-color: rgb(255, 255, 255);
     width: 100%;
     height: 60px;
+    position: fixed;
 }
-#nav-links{
+
+#nav-links {
     display: flex;
     flex-direction: row;
     column-gap: 20px;
+    padding-right: 40px;
 }
 
-#nav-links a{
+#nav-links a {
     display: flex;
     text-decoration: none;
-    color: antiquewhite;
+    color: #EE3E38;
     text-align: center;
     justify-content: center;
     align-items: center;
     font-size: 15px;
     font-family: 'Zen Dots';
+    /* padding-right: 20px; */
 }
 
 #nav-logo {
     width: 200px;
 }
 
-#title{
-    transform: translateX(-350px);
+#nav-icons {
+    display: flex;
+    align-items: center;
+    color: #EE3E38;
+    column-gap: 20px;
+    padding-right: 100px;
 }
 
-#Porli-Sara-hero {
+#hero {
     background-image: url(../assets/images/hero-hero.jpg);
     width: 100vw;
     height: 100vh;
-    background-size: 100% 100%;
     display: flex;
-    flex-direction: row-reverse;
-    /* transform: translateY(-100px); */
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-#hero-watch {
-    width: 500px;
-    height: min-content;
-    align-items: center;
-    /* padding-top: 50px; */
+.hero-text {
+    color: antiquewhite;
+    font-size: 100px;
+    padding-top: 200px;
+    padding-left: 30px;
 }
 
-#hero-watch{
-    animation: heartbeat 1s infinite 
-    alternate;
+.hero-watch img {
+    width: 400px;
 }
 
+.btn {
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+    background-color: #922626;
+    border: none;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-family: 'Zen Dots';
+    text-transform: uppercase;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+}
 
-#hero-text{
-    color: goldenrod;
-    font-size: 50px;
+.btn:hover{
+    background-color: antiquewhite;
+    color: #EE3E38;
+}
+
+#shop-section{
     display: flex;
     flex-direction: column;
-    transform: translateY(200px);
-
-}
-
-#new-arrivals {
-    display: flex;
-    justify-content: center;
-    column-gap: 15px;
     height: 600px;
-    padding-block: 100px;
 }
+
+#bon-arrive {
+    font-size: 20px;
+    font-family: 'Zen Dots';
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #EE3E38;
+    padding-top: 10px;
+}
+
+#bon-arrive h1:after {
+    width: 80px;
+    height: 2px;
+    background-color: #EE3E38;
+    content: "";
+    display: block;
+    margin: 0 auto 25px;
+}
+
 
 #arrival-images{
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
 
-#swiper{
-    height: 600px;
-}
-
-#slotone {
+#slotone{
+    width: 300px;
+    height: 450px;
     border-radius: 20px;
-    transition: transform 0.5s;
 }
-
-/* #slotone:hover {
-    transform: scale(1.1);
-} */
 
 #slot2 {
+    width: 250px;
+    height: 450px;
     border-radius: 20px;
 }
 
 #slot3 {
+    width: 250px;
+    height: 450px ;
     border-radius: 20px;
 }
 
- #just-arrived{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    color: crimson;
-    font-size: 20pt;
-    text-align: justify;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bolder;
-} 
+#slot4 {
+    width: 300px;
+    height: 450px;
+    border-radius: 20px;
+}
 
 #limited-edition{
-    display: flex;
-    flex-direction: column;
     height: 1500px;
-    background-color: #1f1d1d;
+    background-color: #091418;
 }
-
-#lim-edi{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    color: crimson;
-    font-size: 20pt;
-}
-
-#lim-edi-one{
-    display: flex;
-    flex-direction: row;
-    column-gap: 80pt;
-    justify-content: center;
-    border: 10px;
-}
-
-#one{
-    width: 400px;
-}
-
-#img-one-text{
-    color: antiquewhite;
-    padding: 150px;
-    font-size: 20px;
-}
-
-#lim-edi-two{
-    display: flex;
-    flex-direction: row;
-    padding-left: 850px;
-}
-
-#two{
-    width: 400px;
-}
-
-#img-two-text{
-    padding-right: 10px;
-}
-
